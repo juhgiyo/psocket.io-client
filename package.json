@@ -1,0 +1,35 @@
+{
+  "name": "psocket.io-client",
+  "version": "0.0.0",
+  "keywords": [
+    "realtime",
+    "framework",
+    "websocket",
+    "tcp",
+    "events",
+    "client",
+    "parallel"
+  ],
+  "private": true,
+  "main": "./lib/index",
+  "dependencies": {
+    "socket.io-client": "~1.3.7"
+  },
+  "devDependencies": {
+    "socket.io-client": "~1.3.7"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "contributors": [
+    {
+      "name": "Woong Gyu La",
+      "email": "juhgiyo@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juhgiyo/psocket.io-client.git"
+  },
+  "license": "MIT"
+}

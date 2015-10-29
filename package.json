@@ -10,7 +10,6 @@
     "client",
     "parallel"
   ],
-  "private": true,
   "main": "./lib/index",
   "dependencies": {
     "debug": "2.1.3",

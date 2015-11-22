@@ -14,7 +14,7 @@ serve the file `psocket.io.js` found at the root of this repository.
 ```html
 <script src="/psocket.io/psocket.io.js"></script>
 <script>
-  var socket = io('http://localhost');
+  var socket = pio('http://localhost');
   socket.on('connect', function(){});
   socket.on('event', function(data){});
   socket.on('disconnect', function(){});
@@ -36,9 +36,9 @@ PSocket.IO is compatible with [browserify](http://browserify.org/).
 
 ## API
 
-### IO(url:String, opts:Object):PSocket
+### PIO(url:String, opts:Object):PSocket
 
-  Exposed as the `io` namespace in the standalone build, or the result
+  Exposed as the `pio` namespace in the standalone build, or the result
   of calling `require('psocket.io-client')`.
 
   When called, it creates a new `Manager` for the given URL, and attempts
@@ -54,17 +54,13 @@ PSocket.IO is compatible with [browserify](http://browserify.org/).
   `http://localhost` and a Socket.IO connection will be established to
   `/users`.
 
-### IO#protocol
+### PIO#protocol
 
   Socket.io protocol revision number this client works with.
 
-### IO#PSocket
+### PIO#PSocket
 
-  Reference to the `Socket` constructor.
-
-### IO#Manager
-
-  Reference to the `Manager` constructor.
+  Reference to the `PSocket` constructor.
 
 ### IO#Emitter
 

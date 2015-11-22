@@ -13,12 +13,14 @@
   "main": "./lib/index",
   "dependencies": {
     "debug": "2.1.3",
+    "socket.io-parser": "2.2.4",
+    "component-emitter": "1.1.2",
     "priorityqueuejs": "^1.0.0",
     "socket.io-client": "~1.3.7",
     "uuid-js": "^0.7.5"
   },
   "devDependencies": {
-    "browserify": "4.2.1",
+    "browserify": "^12.0.1",
     "expect.js": "0.2.0",
     "istanbul": "0.2.1",
     "mocha": "1.16.2",

@@ -23,7 +23,7 @@ function build(fn){
     var opts = {};
     opts.builtins = false;
     opts.entries = [path];
-    opts.standalone = 'io';
+    opts.standalone = 'pio';
     opts.insertGlobalVars = { global: glob };
     browserify(opts).bundle(fn);
 }

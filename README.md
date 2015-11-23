@@ -5,6 +5,9 @@
 ![Downloads](http://img.shields.io/npm/dm/psocket.io-client.svg?style=flat)
 [![](http://slack.psocket.io/badge.svg)](http://slack.psocket.io)
 
+In Development
+=============
+
 ## How to use
 
 A standalone build of `psocket.io-client` is exposed automatically by the
